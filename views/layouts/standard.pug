@@ -1,0 +1,20 @@
+doctype html 
+html
+    head
+        include ./head.pug
+        block title_block
+            title Blog
+        block head_block
+    body
+        include ./navbar.pug
+        block content
+        block body_block
+        include ./footer.pug 
+        block footer_block
+        script(src="/js/jquery-3.4.1.min.js")
+        script(src="/js/bootstrap.min.js")
+
+
+
+
+

@@ -1,5 +1,11 @@
-extends layout
-
+extends layouts/standard.pug
 block content
-  h1= title
-  p Welcome to #{title}
+  .container-fluid
+    .row
+      .col-md-4.offset-md-4#content
+        h1(style="text-align:center; color:blue;") Hello world!
+        p 
+          |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut rerum beatae dolores debitis, cumque vitae, quas doloribus, error ratione fugiat eligendi expedita maiores deleniti. Laborum nemo explicabo provident expedita pariatur.
+        br
+        p |Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut rerum beatae dolores debitis, cumque vitae, quas doloribus, error ratione fugiat eligendi expedita maiores deleniti. Laborum nemo explicabo provident expedita pariatur.
+        br

@@ -1,8 +1,17 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  width: 100;
+  margin: 0px;
+  paddin: 0px;
 }
 
-a {
-  color: #00B7FF;
+#rowContact{
+  margin-top: 50px;
+  text-align:center;
 }
+
+footer{
+  border-top: 1px solid black;
+  margin-top: 100px;
+  text-align: center;  
+  padding-top: 30px;}
+
